@@ -1,0 +1,32 @@
+main{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(blue, green);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 15px 15px 0px 0px rgba(14, 4, 4, 0.144);
+}
+#correo, #contraseña{
+    padding: 7px;
+    width: 90%;
+    
+}
+#genero{
+    padding: 7px;
+    width: 95%;
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    left: 200px;
+}
+@media (max-width: 499px){ 
+    main{
+        width:100%;
+    }
+}
